@@ -1,0 +1,129 @@
+/*---------- RESET CSS --------*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*------ CONTAINER FOR ALL ELEMENTS -----*/
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/*------- HEADER -----*/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: chocolate;
+}
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+/* NAVIGATION */
+
+nav {
+  margin: 3rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 4rem;
+  font-size: 1.2rem;
+}
+
+/*------ HERO SECTION ------*/
+
+.about-section {
+  display: flex;
+  align-items: center;
+  margin-top: 5rem;
+}
+.about-section-left {
+  margin-right: 4rem;
+}
+
+.about-section-left h1 {
+  font-size: 4.7rem;
+  margin: 1.4rem 0;
+}
+.about-section-left p {
+  line-height: 1.8rem;
+  font-size: 1.1rem;
+}
+.about-section-right img {
+  width: 500px;
+  height: 375px;
+  border-radius: 10px;
+}
+
+/*---------- QUOTE -----*/
+
+q {
+  display: inline-block;
+  text-align: center;
+  font-style: italic;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  color: chocolate;
+  margin: 5rem 0;
+}
+
+/*--- ABOUT SUBSECTION ----*/
+
+.about-subsection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-subsection p {
+  margin-left: 2rem;
+  width: 40%;
+  line-height: 2rem;
+  font-size: 1.2rem;
+}
+
+.about-subsection img {
+  width: 50%;
+  height: 700px;
+  margin-top: 1.7rem;
+}
+
+/*---- FOOTER SECTION -----*/
+
+footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 2rem 0 1rem 2rem;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+}
+footer .logo {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: chocolate;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  gap: 2.5rem;
+}
